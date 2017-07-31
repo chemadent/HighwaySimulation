@@ -1,0 +1,24 @@
+<!-- MyApplet.htm -->
+<html>
+<head><title>My first Applet</title></head>
+<body bgcolor = "FFFF00">
+<center><font size=30 color=blue>Welcome to my simple highway simulator</font></center>
+<br>
+<Applet
+	code 	= CarSimulation
+	codebase= bin/
+	archive = myclasses.jar
+	align	= middle
+	width	= 1350
+	height	= 200	>
+	
+</Applet>
+<pre><br>
+<font size=3>
+<b>Notice:</b>
+No car will be generated if you make a click on the button so fast that it fails to satisfy the rule:
+"At most one waiting car at the beginning can join the highway if and only if the car can take a speed
+of at least 1 while keeping the safe distance to the car in the immediate front."
+</font></pre>
+</body>
+</html>
